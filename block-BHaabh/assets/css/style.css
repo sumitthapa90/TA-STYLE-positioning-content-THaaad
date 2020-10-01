@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@100&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* my css */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #5385c1;
+}
+h6 {
+  color: white;
+  padding: 30px;
+  font-size: 10px;
+}
+a {
+  color: white;
+}
+.nav-bar {
+  text-align: right;
+}
+.hero {
+  width: 100%;
+  height: 150px;
+  background-color: #5385c1;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+}
+.hero p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+}
+.box-1 {
+  width: 300px;
+  height: 100px;
+  color: #5385c1;
+  text-align: justify;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+.box-1 h5 {
+  font-family: "Open Sans", sans-serif;
+}
+.box-1 p {
+  color: grey;
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 12px;
+}
+button {
+  background-color: #5385c1;
+  color: white;
+  margin-top: 20px;
+}
+.container-2 {
+  width: 100%;
+  height: 400px;
+  background-color: #5385c1;
+  margin-top: 70px;
+  text-align: center;
+}
+.container-2 h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.para {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+}
+.profile {
+  padding: 20px;
+  display: inline-block;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 20px 50px;
+}
+.profile img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+.profile p {
+  color: white;
+  font-size: 12px;
+}
+.profile h4 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container-3 {
+  text-align: center;
+  margin-top: 50px;
+}
+.container-3 h4 {
+  color: #5385c1;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.container-3 p {
+  color: gray;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.items {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 43%;
+  text-align: justify;
+  text-align: center;
+}
+.end-part {
+  text-align: center;
+  margin-top: 30px;
+}
+.items h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #5385c1;
+}
+.items p {
+  padding: 5px 30px;
+  word-spacing: 3px;
+  text-align: justify;
+  font-size: 12px;
+  color: rgb(70, 68, 68);
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.items button {
+  margin-bottom: 100px;
+  float: left;
+  margin-left: 30px;
+}
+hr {
+  width: 1150px;
+  margin-bottom: 20px;
+}
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  color: gray;
+}
+.icons {
+  float: right;
+  margin-right: 100px;
+  padding-bottom: 30;
+  margin-bottom: 20px;
+}
